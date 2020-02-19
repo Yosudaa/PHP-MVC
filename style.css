@@ -1,0 +1,140 @@
+body{
+	background-image: url("bg.jpg");
+	font-size: 16px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.kanan{
+	margin-left: 53%;
+}
+
+.up{
+	margin-top: 10px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	background-color: rgba(255,192,203,0.5);
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+	color:#444;
+}
+
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;
+}
+
+footer h4{
+	text-align: center;
+}
+
+footer{
+	margin-top: 10%;
+	display: block;
+	position: relative;
+}
+
+.menu{
+	background-color: rgba(0,255,255,0.3);
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.tabview{
+	border-color: white;
+	border-collapse: collapse;
+}
+
+div.menu ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+div.menu ul li{
+	text-transform: uppercase;
+}
+
+div.menu ul li a{
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	transition: 0.3 ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a.hoverover{
+	cursor: pointer;
+	color: white;
+}
+
+li.dropdown{
+	display: inline-block;
+}
+
+.fominput{
+	margin-top: 5%;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	transition: 1s ease;
+	width: 80%;
+	height: 30px;
+	padding: 0 5px;
+}
+
+.fominput:hover{
+	background-color: rgba(0,0,0,0.9);
+	transition: 1s ease;
+
+}
+
+.tabinput{
+	margin-top: 5%;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 8%;
+	padding: 15px;
+	border-color: 10px solid white;
+}
+
+.btnok{
+	background-color: rgba(0,0,0,0.1);
+	color: white;
+	width: 100px;
+	height: 35px;
+	transition: 1s ease;
+	border: 2px solid white;
+	font-size: 12pt;
+}
+
+.btnok:hover{
+	background-color: rgba(0,0,0,0.9);
+	transition: 1s ease;
+}
+
+.bintang{
+	color: white;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+.star{
+	font-size: 28pt;
+}
